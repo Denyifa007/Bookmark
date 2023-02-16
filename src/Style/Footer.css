@@ -1,0 +1,67 @@
+.foot {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footleg {
+    margin-top: 1rem;
+  align-items: center;
+  display: flex;
+}
+.things {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 20rem;
+  margin-left: 2rem;
+  align-items: center;
+}
+.things p {
+    margin-top: 1rem;
+  margin-right: 1rem;
+  font-size: 12px;
+  color: white;
+}
+.things p:hover{
+  margin-right: 1rem;
+  font-size: 13px;
+  color: red;
+  cursor: pointer;
+}
+.twt{
+    margin-left: 2rem;
+}
+.fb:hover{
+    background-color: red;
+    
+    
+}
+.twt:hover{
+    margin-left: 2rem;
+    background-color: red;
+    
+}
+@media(max-width:428px){
+  .foot {
+    overflow-x: hidden;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footleg {
+    margin-top: 1rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.things {
+  display: flex;
+  width: 20rem;
+  margin-left: 2rem;
+  align-items: center;
+  flex-direction: column;
+}
+
+}

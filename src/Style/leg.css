@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#acc headerTitle:hover {
+  color: red;
+}
+.legfoot {
+  width: 100vw;
+}
+#accordion {
+  margin-top: 4rem;
+  margin-left: 20rem;
+}
+#acc-btn {
+  margin-top: 3rem;
+  background-color: rgb(102, 102, 246);
+  width: 7rem;
+  height: 3rem;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  margin-left: 15rem;
+}
+
+.legwork {
+  padding-top: 4rem;
+  margin-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  margin-top: 7rem;
+  color: white;
+  background-color: rgb(102, 102, 246);
+}
+
+.below {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+#mail {
+  border-radius: 3px;
+}
+#cus {
+  width: 6.5rem;
+  border: none;
+  border-radius: 3px;
+}
+
+@media (max-width: 428px) {
+  #accordion {
+    overflow-x: hidden;
+    margin-top: 4rem;
+    margin-left: 1rem;
+  }
+  #acc-btn {
+    margin-top: 3rem;
+    background-color: rgb(102, 102, 246);
+    width: 7rem;
+    height: 3rem;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    margin-left: 8rem;
+  }
+  .below {
+    flex-direction: column;
+  }
+  #cus {
+    margin-left: 4.5rem;
+    width: 15rem;
+    padding: 1rem;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+  }
+  #mail {
+    border-radius: 3px;
+  }
+  #mail:hover {
+    color: red;
+    border-radius: 3px;
+  }
+  #Contact-us {
+    width: 15rem;
+    padding: 1rem;
+  }
+  #Contact-us:hover {
+    color: red;
+    border-radius: 3px;
+    width: 15rem;
+    padding: 1rem;
+  }
+  #cus:hover {
+    color: white;
+    border: 2px solid red;
+    border-radius: 3px;
+    margin-left: 4.5rem;
+    width: 15rem;
+    padding: 1rem;
+    font-size: 19px;
+  }
+}

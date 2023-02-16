@@ -1,0 +1,21 @@
+#wise, #east, #west, #south{
+    font-size: 14px;
+}
+
+#wise:hover{
+    font-size: 16px;
+    color: red;
+}
+#east:hover{
+    font-size: 16px;
+    color: red;
+}
+#west:hover{
+    font-size: 16px;
+    color: red;
+}
+#south:hover{
+    font-size: 16px;
+    color: red;
+    border: 1px solid red;
+}

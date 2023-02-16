@@ -3,7 +3,6 @@ import {
   MDBAccordion,
   MDBAccordionItem,
   MDBCol,
-  MDBRow,
 } from "mdb-react-ui-kit";
 import "../Style/leg.css";
 // import { Accordion } from "react-bootstrap";

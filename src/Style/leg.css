@@ -68,7 +68,8 @@
     flex-direction: column;
   }
   #cus {
-    margin-left: 4.5rem;
+    margin: auto;
+    text-align: center;
     width: 15rem;
     padding: 1rem;
     font-size: 20px;

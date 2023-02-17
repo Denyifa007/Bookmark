@@ -10,9 +10,9 @@ const Footer = () => {
       <div className="footleg">
         <img src={logo2} alt="" />
         <div className="things">
-          <p>FEATURES</p>
-          <p>PRICING</p>
-          <p>CONTACT</p>
+          <a href="#main"><p>FEATURES</p></a>
+          <a href="#main"><p>CONTACT</p></a>
+          <a href="#main"><p>CONTACT</p></a>
         </div>
       </div>
       <div >
